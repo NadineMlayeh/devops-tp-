@@ -9,7 +9,7 @@ def hello():
 # New status route
 @app.route('/status')
 def status():
-    return "OK", 200
+    return "OKkk", 200
 
 if __name__ == "__main__":
     app.run()
